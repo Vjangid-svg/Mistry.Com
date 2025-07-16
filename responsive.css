@@ -1,0 +1,608 @@
+@media(max-width:992px) {
+   
+    .navbar {
+        width: 300px;
+        height: 100vh;
+        padding: 10px 20px;
+        display: block;
+        margin-top:115px ;
+        justify-content: space-between;
+        background-color: white;
+        /* margin-left: -1400px; */
+        left: -500px;
+        position: fixed;
+        color:  rgba(248, 11, 11, 0.78);
+        border-radius: 0px;
+        transition: 0.3s;
+
+    }
+   
+    .navbar.active {
+        margin-left: 0px;
+        left: 0%;
+        /* top: 9%; */
+    }
+  
+
+    .navItem {
+        display: block;
+    }
+
+    .navIcon {
+        display: block;
+    }
+
+    .navlist {
+        display: inline-grid;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+.navbar>.logo{
+    display: none;
+
+}
+    .navIcon>ul {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+.navlist>a{
+    color:  rgba(248, 11, 11, 0.78);
+}
+    .navIcon>ul>li>i {
+        display: none;
+    }
+
+
+    .container1 {
+        background-image: url("./content/Mistry.Store_files/trimmed.gif");
+        padding: 30px 30px 170px 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        position: relative;
+    }
+
+    .keyfeatures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 25px;
+    }
+
+    .pg2keyfeature {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgba(54, 54, 53);
+        margin: auto;
+        margin: 0 20px;
+        padding: 30px 20px;
+        border-radius: 14px;
+        position: absolute;
+        top: 85%;
+    }
+
+    .page2content {
+        display: flex;
+        justify-content: space-between;
+        padding: 150px 0 10px 0px;
+    }
+
+    .page2Img {
+        place-content: center;
+
+    }
+
+    .page2text {
+        width: 400px;
+    }
+
+    .pagetextfeature {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+        padding-top: 40px;
+    }
+
+    .page3heading {
+        padding: 60px 30px 68px 30px;
+    }
+
+    .page4 {
+        display: flex;
+        padding: 60px 30px;
+        background-color: #333;
+        justify-content: space-between;
+        background-image: url("./content/Mistry.Store_files/brands.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+
+    .pg6body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        padding-top: 20px;
+    }
+
+    .footlogo img {
+        width: 160px;
+        height: 50px;
+
+    }
+
+    .footlogo {
+        display: block;
+    }
+
+    .line3 {
+        display: none;
+    }
+
+    .footicon {
+        display: block;
+        justify-content: space-between;
+        /* padding: 0px 150px; */
+    }
+
+    .ficon>a>img {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .ficon {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .Cpage1 {
+        /* padding: 0; */
+    }
+
+    .Cpage1 {
+        padding: 30px;
+        background-color: #f3f3f3;
+    }
+
+    .catapage1>img {
+        width: 135px;
+        height: 200px;
+    }
+
+    .cat1 {
+        width: 180px;
+        height: 80px;
+        padding: 20px 0 25px 0;
+        border-radius: 7px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .catacatagory {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        padding: 27px 0;
+        padding-left: 10px;
+    }
+    .about {
+        padding: 30px !important;
+        background-color: #f3f3f3;
+    }
+    
+    .aboutbc {
+        color: grey;
+        font-size: 26px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-bottom: 80px;
+    }
+   
+    .aboutbc>img {
+        width: 60%;
+        border-radius: 25px;
+    }
+    .aboutbody{
+        display: block;
+        justify-content: center;
+    }
+    .contact {
+        padding: 30px;
+        background-color: #f3f3f3;
+    }
+    .cdetail>div>input {
+        width: 100%;
+        height: 40px;
+        margin-top: 6px;
+        border: 1px solid #f3f3f3;
+        /* border-radius: 10px; */
+    }
+    .cmsg>textarea {
+        width: 90%;
+        height: 100px;
+        margin-top: 8px;
+        margin-bottom: 30px;
+        background-color: #f3f3f3;
+        border: none;
+        
+        /* border-radius: 15px; */
+    }
+    .ctext{
+        flex-basis: 39%;
+
+    }
+    .clocation {
+        display: flex;
+        justify-content: center;
+        gap: 1%;
+        padding: 70px 0;
+    }
+    .cmap {
+        width: 40%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        /* flex-basis: 40%; */
+    }
+    .cmap>iframe {
+        width: 87%;
+        /* height: 300px; */
+        padding: 20px;
+    }
+    .navbartwo {
+        position: sticky;
+        left: 0%;
+        top: 0%;   
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;      
+        background-color: rgba(176, 166, 166, 0.5);
+        border-radius: 15px;
+        z-index: 1;
+    }
+    #cross.appear{
+        display: contents;
+    }
+    #bar.remove{
+        display: none;
+    }
+    
+}
+
+@media(max-width:477px){
+    .container1 {
+        background-image: url("./content/Mistry.Store_files/trimmed.gif");
+        padding:15px 10px 100px 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        position: relative;
+    }
+    .logotwo>p {
+        color: white;
+        font-size: 20px;
+    }
+    .logotwo>img {
+        width: 40px;
+    }
+    .content>.headerHeading>h1 {
+        line-height: 40px;
+        padding: 20px 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    .content>div>h3 {
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .keyfeatures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding: 30px 0;
+    }
+    .key1>p {
+        color: white;
+        padding-top: 13px;
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .pg2keyfeature {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgba(54, 54, 53);
+        margin: 50px 10px 10px 10px ;
+        /* margin: 0 20px; */
+        padding: 30px 20px;
+        border-radius: 14px;
+        position: absolute;
+        top: 95%;
+    }
+    .pg2kicon>p {
+        font-size: 13px;
+        line-height: 23px;
+        color: white;
+    }
+    .pg2kicon>i {
+        font-size: 30px;
+        color: white;
+    }
+    .endBtn {
+        padding: 30px 10px;
+    }
+    button {
+        padding: 12px 20px;
+        font-size: 10px;
+        border-radius: 8px;
+        border: 1px solid  rgba(248, 11, 11, 0.78);
+        color: white;
+        cursor: pointer;
+        background-color: rgba(248, 11, 11, 0.78);
+    }
+    .endBtn>a {
+        /* text-decoration: none; */
+        color: white;
+        font-size: 14px;
+        padding: 0px 13px;
+    }
+    .page2text>h1 {
+        font-size: 24px;
+        line-height: 34px;
+        color: grey;
+    }
+    .page2tf>p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .pagetextfeature {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+        padding-top: 40px;
+    }
+    .page2content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column-reverse ;
+        padding: 150px 16px 10px 16px;
+    }
+    .page2Img>img {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .page3heading>h1 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .pg3template {
+        padding: 15px;
+        margin: 20px;   
+        background-color: #333;
+        color: white;
+    }
+    .page4text>h1 {
+        font-size: 32px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    .page4text>p {
+        color: white;
+        font-size: 16px;
+    }
+    .page5head>h1 {
+        font-size: 25px;
+        padding: 7px;
+    }
+    .page5head>h3 {
+        font-size: 13px;
+    }
+    .pg5content>div>img {
+        width: 100%;
+    }
+    .pg5content {
+        /* background-color: red; */
+        display: block;
+        justify-content: center;
+        /* gap: 60px; */
+        padding: 10px;
+    }
+    .pg6head>h3 {
+        font-size: 13px;
+        padding-bottom: 8px;
+    }
+    .pg6head>h1 {
+        font-size: 18px;
+    }
+    .pg6body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        padding-top: 20px;
+    }
+    .pg63{
+        display: none;
+    }
+    .footheadInner>p {
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .footcontent {
+        display: flex;
+        background-color: #333;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .footicon {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center; 
+        text-align: center;   
+
+    }
+    .ficon>a>img {
+        width: 50%;
+        padding: 10px;
+    }
+    
+    .ficon {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        text-align: center;
+    }
+    .fmsg{
+        font-size: 16px ;
+    }
+    .Cpage1 {
+        padding: 10px;
+        background-color: #f3f3f3;
+    }
+    .catacatagory {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        padding: 27px 0;
+        padding-left: 0px;
+    }
+    .cat1 {
+        width: 130px;
+        height: 79px;
+        padding: 20px 0 25px 0;
+        border-radius: 7px;
+        background-color: white;
+        text-align: center;
+    }
+    .catatemp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+    .about {
+        padding: 10px !important;
+        background-color: #f3f3f3;
+    }
+    .Abouthead>.aboutstar>img {
+        width: 99%;
+        padding-top: 0px;
+    }
+    .Abouthead>.aboutstar>h1{
+        font-size: 24px !important;
+        padding: 10px !important;
+        line-height: 30px !important;
+        padding-top: 30px !important;
+    }
+    .aboutstar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Abouthead>p{
+        font-size: 16px !important;
+    }
+    .Abouthead>h3 {
+        font-size: 14px !important;
+        padding: 10px 0 70px 0;
+    }
+    .aboutbody>div>h1{
+        font-size: 24px !important;
+    }
+    .aboutbc>img {
+        width: 100%;
+        border-radius: 25px;
+    }
+    .aboutbc>p{
+        font-size: 16px !important;
+    line-height: 20px !important;
+
+    }
+    .aboutbody>h1{
+        font-size: 24px !important;
+    }
+    .aboutbc>p{
+        font-size: 14px;
+    }
+    .bc {
+        color: grey;
+        font-size: 26px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 20px;
+    }
+    .ab2>h1{
+        font-size: 40px !important;
+    }
+    .aboutbody {
+        display: block;
+        justify-content: center;
+        padding: 50px;
+    }
+    .ab2>p{
+        font-size: 14px !important;
+    }
+    .contact {
+        padding: 10px;
+        background-color: #f3f3f3;
+    }
+    .form>div>h1{
+        font-size: 24px !important;
+    }
+    .cdetail {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .clocation {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 2%;
+        padding: 0px ;
+        padding-bottom: 40px;
+    }
+    .ctext {
+        padding: 40px;
+        flex-basis: 39%;
+    }
+    .cmap {
+        width: 90%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        /* flex-basis: 40%; */
+    }
+    .bloghead {
+        /* background-color: blue; */
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+
+
+}
