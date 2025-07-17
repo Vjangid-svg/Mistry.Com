@@ -85,7 +85,7 @@
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 130%;
+        top: 130% !important;
     }
 
     .page2content {
@@ -334,7 +334,7 @@
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 110%;
+        top: 110% !important;
     }
     .pg2kicon>p {
         font-size: 13px;
@@ -649,7 +649,7 @@ margin: 30px 0px;
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 120%;
+        top: 120% !important;
     }
 }
 
@@ -665,6 +665,6 @@ margin: 30px 0px;
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 140%;
+        top: 140% !important;
     }
 }
