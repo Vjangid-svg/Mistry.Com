@@ -85,7 +85,7 @@
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 85%;
+        top: 130%;
     }
 
     .page2content {
@@ -334,7 +334,7 @@
         padding: 30px 20px;
         border-radius: 14px;
         position: absolute;
-        top: 95%;
+        top: 110%;
     }
     .pg2kicon>p {
         font-size: 13px;
@@ -634,4 +634,37 @@ margin: 30px 0px;
 }
 
 
+}
+
+
+@media(max-width:380px) {
+
+  .pg2keyfeature {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgba(54, 54, 53);
+        margin: 50px 10px 10px 10px ;
+        /* margin: 0 20px; */
+        padding: 30px 20px;
+        border-radius: 14px;
+        position: absolute;
+        top: 120%;
+    }
+}
+
+@media(max-width:677px) {
+
+  .pg2keyfeature {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgba(54, 54, 53);
+        margin: 50px 10px 10px 10px ;
+        /* margin: 0 20px; */
+        padding: 30px 20px;
+        border-radius: 14px;
+        position: absolute;
+        top: 140%;
+    }
 }
