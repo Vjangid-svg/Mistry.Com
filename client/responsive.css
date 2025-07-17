@@ -652,7 +652,7 @@ margin: 30px 0px;
 
 }
 
-@media(max-width:420px) {
+@media(max-width:410px) {
 
   .pg2keyfeature {
         display: flex;
@@ -667,3 +667,19 @@ margin: 30px 0px;
         top: 120% !important;
     }
 }
+@media(max-width:350px) {
+
+  .pg2keyfeature {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgba(54, 54, 53);
+        margin: 50px 10px 10px 10px ;
+        /* margin: 0 20px; */
+        padding: 30px 20px;
+        border-radius: 14px;
+        position: absolute;
+        top: 170% !important;
+    }
+}
+
